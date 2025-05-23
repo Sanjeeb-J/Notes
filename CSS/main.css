@@ -62,18 +62,20 @@ body::before {
   border-radius: 10px;
   border: 2px solid #acdb34;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
-  transition: transform 0.15s ease, background-color 0.3s ease;
-  cursor: pointer; /* Indicate it's clickable */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
 }
 
 .box:hover {
-  transform: translateY(-5px); /* Lift box on hover */
-  background-color: rgba(41, 185, 87, 0.9); /* Darker blue on hover */
+  transform: translateY(-5px);
+  width: 160px;
+  border: 3px solid #acdb34;
+  background-color: rgba(22, 155, 64, 0.9);
 }
 
 .link{
   text-decoration: none;
-  color: white; /* White text for better contrast */
-  font-size: 1.2em; /* Slightly larger font size */
+  color: white;
+  font-size: 1.2em;
   font-weight: bold;
 }
