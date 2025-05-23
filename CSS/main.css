@@ -1,21 +1,52 @@
 body {
   background-image: url(../img/code.jpg);
   background-size: cover;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .heading {
   text-align: center;
   color: white;
   padding: 20px;
-  margin: 15px;
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   font-size: 25px;
   font-family: "Doto", sans-serif;
   font-weight: bold;
   letter-spacing: 2px;
   line-height: 2;
   text-shadow: 1px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 575px;
+}
+
+
+.box{
+  background-color: rgb(255, 102, 0);
+  height: 60px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid gold;
+}
+
+.link{
+  text-decoration: none;
+  color: aliceblue;
 }
